@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10655" started-at="2019-10-11T11:51:22Z" finished-at="2019-10-11T11:51:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10655" started-at="2019-10-11T11:51:22Z" finished-at="2019-10-11T11:51:33Z">
+      <class name="com.atmecs.website.testscripts.sample">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2]" name="startReport" is-config="true" duration-ms="281" started-at="2019-10-11T11:51:22Z" finished-at="2019-10-11T11:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2]" name="baseSetup" is-config="true" duration-ms="9506" started-at="2019-10-11T11:51:22Z" finished-at="2019-10-11T11:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2]" name="sampleTest" duration-ms="316" started-at="2019-10-11T11:51:32Z" finished-at="2019-10-11T11:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2]" name="tearDown" is-config="true" duration-ms="772" started-at="2019-10-11T11:51:32Z" finished-at="2019-10-11T11:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleTest status=SUCCESS method=sample.sampleTest()[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.website.testscripts.sample@6a41eaa2]" name="endReport" is-config="true" duration-ms="1578" started-at="2019-10-11T11:51:33Z" finished-at="2019-10-11T11:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.website.testscripts.sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
