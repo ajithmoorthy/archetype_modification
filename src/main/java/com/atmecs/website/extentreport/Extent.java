@@ -90,7 +90,7 @@ public class Extent {
 	/**
 	 * This endDriver method call the driver quit method.
 	 */
-	@AfterClass
+	@AfterTest
 	public void endDriver() 
 	{
 		driver.quit();
